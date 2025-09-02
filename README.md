@@ -38,7 +38,7 @@ Explore my repositories for detailed documentation and implementations.
 <p align="center"> <a href="https://github.com/Ashutosh00710/github-readme-activity-graph"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=HasnaatAbdullah&radius=8&hide_border=false&area=true"/> </a> </p>
 🏆 GitHub Trophies
 <p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=HasnaatAbdullah&margin-w=10&margin-h=10&no-frame=true&column=7"/> </p>
-![snake gif](https://raw.githubusercontent.com/HasnaatAbdullah/HasnaatAbdullah/output/snake.svg)
+![Snake animation](https://raw.githubusercontent.com/HasnaatAbdullah/HasnaatAbdullah/output/snake.svg)
 <p align="center">
   <img src="https://media.giphy.com/media/bGgsc5mWoryfgKBx1u/giphy.gif" width="900"/>
 </p>
