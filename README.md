@@ -41,37 +41,6 @@ Explore my repositories for detailed documentation and implementations.
 🐍 Contribution Snake (Animated)
 ![snake gif](https://raw.githubusercontent.com/HasnaatAbdullah/HasnaatAbdullah/output/snake.svg)
 
-
-GitHub Action (save as .github/workflows/snake.yml in your repo):
-
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3
-        with:
-          github_user_name: HasnaatAbdullah
-          outputs: |
-            dist/snake.svg
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 🎬 Hero Banner (Animated)
 <p align="center">
   <img src="https://media.giphy.com/media/bGgsc5mWoryfgKBx1u/giphy.gif" width="900"/>
